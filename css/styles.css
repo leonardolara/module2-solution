@@ -7,7 +7,7 @@
     margin: 0;
   }
   h1 {
-    font-size: 175%;
+    font-size: 1.75em;
     margin: 30px;
     text-align: center;
   }
@@ -21,7 +21,7 @@
     height: auto;
   }
   .box-title {
-    font-size: 125%;
+    font-size: 1.25em;
     padding: 5px 30px;
     border: 1px solid black;
     float: right;
@@ -44,6 +44,7 @@
     width: 95%;
   }
   .col {
+    float: left;
     padding-left: 5%;
     margin-bottom: 5%;
   }
@@ -51,7 +52,6 @@
   /********** Large devices only **********/
   @media (min-width: 992px) {
     .large {
-      float: left;
       width: 33.33%;
     }
   }
@@ -59,18 +59,13 @@
   /********** Medium devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
     .medium {
-      float: left;
       width: 50%;
-    }
-    .medium:last-child {
-      width: 100%;
     }
   }
 
   /********** Small devices only **********/
   @media (max-width: 767px) {
     .small {
-      float: left;
       width: 100%;
     }
   }
